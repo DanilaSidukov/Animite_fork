@@ -9,7 +9,7 @@ import kotlinx.coroutines.flow.Flow
 
 
 @Dao
-interface MediaDAO : BaseDAO<Media> {
+interface MediaDao : BaseDao<Media> {
 
     @Query("SELECT * FROM media")
     override fun getAll(): Flow<List<Media>>

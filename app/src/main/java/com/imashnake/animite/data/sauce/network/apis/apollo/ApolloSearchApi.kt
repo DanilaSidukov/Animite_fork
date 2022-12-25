@@ -1,9 +1,9 @@
-package com.imashnake.animite.data.sauce.apis.apollo
+package com.imashnake.animite.data.sauce.network.apis.apollo
 
 import com.apollographql.apollo3.ApolloClient
 import com.apollographql.apollo3.api.Optional
 import com.imashnake.animite.SearchQuery
-import com.imashnake.animite.data.sauce.apis.SearchApi
+import com.imashnake.animite.data.sauce.network.apis.SearchApi
 import com.imashnake.animite.type.MediaType
 import javax.inject.Inject
 

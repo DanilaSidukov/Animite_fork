@@ -1,4 +1,4 @@
-package com.imashnake.animite.data.sauce.apis
+package com.imashnake.animite.data.sauce.network.apis
 
 import com.imashnake.animite.SearchQuery
 import com.imashnake.animite.type.MediaType

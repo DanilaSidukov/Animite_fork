@@ -1,7 +1,7 @@
-package com.imashnake.animite.data.sauce
+package com.imashnake.animite.data.sauce.network
 
 import com.imashnake.animite.MediaListQuery
-import com.imashnake.animite.data.sauce.apis.MediaListApi
+import com.imashnake.animite.data.sauce.network.apis.MediaListApi
 import com.imashnake.animite.type.MediaSeason
 import com.imashnake.animite.type.MediaSort
 import com.imashnake.animite.type.MediaType

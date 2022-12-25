@@ -6,7 +6,7 @@ import kotlinx.coroutines.flow.flowOf
 
 
 @Dao
-interface MediaLinkDAO : BaseDAO<MediaLink> {
+interface MediaLinkDao : BaseDao<MediaLink> {
 
     // no-op, not interested in getting links, just using it for the `insertAll` for now
     override fun getAll() = flowOf<List<MediaLink>>()

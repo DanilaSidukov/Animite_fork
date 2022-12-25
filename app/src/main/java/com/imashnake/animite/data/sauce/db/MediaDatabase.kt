@@ -2,9 +2,8 @@ package com.imashnake.animite.data.sauce.db
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import androidx.room.TypeConverters
-import com.imashnake.animite.data.sauce.db.dao.MediaDAO
-import com.imashnake.animite.data.sauce.db.dao.MediaLinkDAO
+import com.imashnake.animite.data.sauce.db.dao.MediaDao
+import com.imashnake.animite.data.sauce.db.dao.MediaLinkDao
 import com.imashnake.animite.data.sauce.db.model.Media
 import com.imashnake.animite.data.sauce.db.model.MediaLink
 
@@ -15,7 +14,7 @@ import com.imashnake.animite.data.sauce.db.model.MediaLink
         MediaLink::class
     ]
 )
-abstract class AnimiteDatabase : RoomDatabase() {
-    abstract fun homepageDAO(): MediaDAO
-    abstract fun mediumLinkDAO(): MediaLinkDAO
+abstract class MediaDatabase : RoomDatabase() {
+    abstract fun mediaDao(): MediaDao
+    abstract fun mediaLinkDao(): MediaLinkDao
 }

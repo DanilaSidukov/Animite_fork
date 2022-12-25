@@ -6,7 +6,7 @@ import androidx.room.OnConflictStrategy
 import androidx.room.Update
 import kotlinx.coroutines.flow.Flow
 
-interface BaseDAO<T> {
+interface BaseDao<T> {
 
     fun getAll(): Flow<List<T>>
 

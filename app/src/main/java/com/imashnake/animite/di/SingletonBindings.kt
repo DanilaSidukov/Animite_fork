@@ -1,11 +1,11 @@
 package com.imashnake.animite.di
 
-import com.imashnake.animite.data.sauce.apis.MediaApi
-import com.imashnake.animite.data.sauce.apis.MediaListApi
-import com.imashnake.animite.data.sauce.apis.SearchApi
-import com.imashnake.animite.data.sauce.apis.apollo.ApolloMediaApi
-import com.imashnake.animite.data.sauce.apis.apollo.ApolloMediaListApi
-import com.imashnake.animite.data.sauce.apis.apollo.ApolloSearchApi
+import com.imashnake.animite.data.sauce.network.apis.MediaApi
+import com.imashnake.animite.data.sauce.network.apis.MediaListApi
+import com.imashnake.animite.data.sauce.network.apis.SearchApi
+import com.imashnake.animite.data.sauce.network.apis.apollo.ApolloMediaApi
+import com.imashnake.animite.data.sauce.network.apis.apollo.ApolloMediaListApi
+import com.imashnake.animite.data.sauce.network.apis.apollo.ApolloSearchApi
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn

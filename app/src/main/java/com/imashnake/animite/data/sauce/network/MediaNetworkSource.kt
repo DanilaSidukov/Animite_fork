@@ -1,7 +1,7 @@
-package com.imashnake.animite.data.sauce
+package com.imashnake.animite.data.sauce.network
 
 import com.imashnake.animite.MediaQuery.Media
-import com.imashnake.animite.data.sauce.apis.MediaApi
+import com.imashnake.animite.data.sauce.network.apis.MediaApi
 import com.imashnake.animite.type.MediaType
 import javax.inject.Inject
 
