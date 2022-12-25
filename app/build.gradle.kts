@@ -7,8 +7,10 @@ plugins {
     alias(libs.plugins.kotlin)
     alias(libs.plugins.apolloKotlin)
     alias(libs.plugins.hilt)
-    alias(libs.plugins.ksp) version libs.versions.ksp.get()
+    alias(libs.plugins.ksp)
+    alias(libs.plugins.serialization)
     kotlin("kapt")
+    kotlin("plugin.parcelize")
 }
 
 android {
@@ -74,10 +76,6 @@ apollo {
     }
 }
 
-kapt {
-    correctErrorTypes = true
-}
-
 ksp {
     arg("compose-destinations.mode", "destinations")
 }
@@ -131,6 +129,14 @@ dependencies {
     // Compose Destinations
     implementation(libs.compose.destinations)
     ksp(libs.compose.destinations.ksp)
+
+    // Room
+    implementation(libs.room)
+    implementation(libs.room.ktx)
+    ksp(libs.room.compiler)
+
+    // Kotlin Serialization
+    implementation(libs.kotlinx.serialization)
 
     testImplementation(libs.test.junit)
 
