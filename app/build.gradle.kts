@@ -110,8 +110,8 @@ dependencies {
     implementation(libs.coil.compose)
 
     // Kotlin
-    implementation(libs.kotlin.coroutines.android)
-    implementation(libs.kotlin.coroutines.core)
+    implementation(libs.kotlinx.coroutines.android)
+    implementation(libs.kotlinx.coroutines.core)
     implementation(kotlin("reflect"))
 
     // Hilt

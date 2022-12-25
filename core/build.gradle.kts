@@ -71,8 +71,8 @@ dependencies {
     implementation(libs.compose.ui.toolingPreview)
 
     // Kotlin
-    implementation(libs.kotlin.coroutines.android)
-    implementation(libs.kotlin.coroutines.core)
+    implementation(libs.kotlinx.coroutines.android)
+    implementation(libs.kotlinx.coroutines.core)
 
     testImplementation(libs.test.junit)
 
